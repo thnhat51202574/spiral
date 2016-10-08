@@ -887,6 +887,10 @@ div.sidebar-widget-heading {
 
 /*new custom*/
 
+.home-page {
+    background-color: #eff2f2;
+}
+
 .pull-right {
     float: right;
 }
@@ -1042,6 +1046,7 @@ div.sidebar-widget-heading {
     line-height: 0.5;
     text-align: center;
     margin-bottom: 25px;
+    line-height: 1em;
 }
 
 .hp_yn_si_module_store_des,
@@ -1138,6 +1143,7 @@ div.sidebar-widget-heading {
     font-family: "HelveticaNeueLTStd";
     color: rgb(0, 14, 101);
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .hp_yn_si_view_more > a {
@@ -1153,6 +1159,7 @@ div.sidebar-widget-heading {
     height: 40px;
     line-height: 40px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 .project_banner_text {
@@ -1202,7 +1209,16 @@ div.sidebar-widget-heading {
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content textarea {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    width: 580px;
+    height: 126px;
     margin-bottom: 25px;
+    padding: 10px;
+    resize: none;
+    max-width: 100%;
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content input[type="text"],
@@ -1211,7 +1227,7 @@ div.sidebar-widget-heading {
     border-width: 1px;
     border-color: rgb(221, 221, 221);
     background-color: rgb(255, 255, 255);
-    height: 42px;
+    height: 40px;
     border-radius: 0 !important;
     box-shadow: none !important;
 }
