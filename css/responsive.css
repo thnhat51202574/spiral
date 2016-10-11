@@ -23,6 +23,10 @@
     .hp_ynsi_product_right {
         overflow:  hidden;
     }
+    /* Blog page */
+    .blog-detail-page .blog-wrap {
+        margin-bottom: 50px;
+    }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* About us */
