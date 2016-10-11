@@ -1755,6 +1755,7 @@ h3.module_store_detail_title {
 
 .featured-project-page .section-menu ul li.section-menu-item {
     display: inline-block;
+    margin-bottom: 5px;
 }
 
 .featured-project-page .section-menu ul li.section-menu-item a {

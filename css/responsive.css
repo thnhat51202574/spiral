@@ -27,6 +27,16 @@
     .blog-detail-page .blog-wrap {
         margin-bottom: 50px;
     }
+    /* Page feature */
+    .featured-project-page .section-content-item figure {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .featured-project-page .section-content-item figure img{
+        width: 100%;
+    }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* About us */
@@ -45,6 +55,13 @@
     }
     .hp_yn_si_module_store_title, .hp_yn_si_feature_project_title, .hp_yn_si_request_demo_form_title {
         font-size: 32px;
+    }
+    /* Page feature */
+    .featured-project-page .section-content-item figure {
+        width: 100%;
+    }
+    a.btn-view-all-project {
+        width: 70% !important;
     }
 }
 
