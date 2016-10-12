@@ -1210,6 +1210,9 @@ div.sidebar-widget-heading {
     margin-left: auto;
     margin-right: auto;
 }
+.hp_yn_si_request_demo_form_content p.form-des {
+    margin-bottom: 25px;
+}
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content .btn-contact-us {
     margin-bottom: 60px;
@@ -1251,6 +1254,7 @@ div.sidebar-widget-heading {
     font-family: "HelveticaNeueLTStd-Lt";
     color: rgb(46, 50, 60);
     text-align: left;
+    font-weight: 400;
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content select {
@@ -1691,6 +1695,7 @@ h3.module_store_detail_title {
     background-color: #eff2f2;
 }
 
+.contact-us-page .page-title > p,
 .blog-page .page-title > p,
 .about-us-page .page-title > p,
 .featured-project-page .page-title > p {
@@ -2246,6 +2251,7 @@ a.view-profile:hover {
 
 /* Request Demo Page */
 
+.contact-us-page,
 .request-demo-page {
     background-color: #fff;
     font-size: 16px;
@@ -2272,7 +2278,7 @@ a.view-profile:hover {
     height: 2px;
     width: 100%;
 }
-
+.contact-us-page .ynsi-contact .title,
 .request-demo-page .ynsi-request-demo .title,
 .request-demo-page .ynsi-contact .title {
     font-family: "HelveticaNeueLTStd";
@@ -2316,4 +2322,15 @@ a.view-profile:hover {
     color: rgb(255, 255, 255);
     line-height: 1.5;
     text-align: center;
+}
+
+.ynsi-map img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.contact-us-page  .contact-us {
+    padding:  50px 0 10px;
+}
+.contact-us-page  .contact-us .address {
+    margin-bottom: 70px;
 }
