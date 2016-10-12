@@ -37,6 +37,10 @@
     .featured-project-page .section-content-item figure img{
         width: 100%;
     }
+    /* Request demo page */
+    .ynsi-notes {
+        margin-bottom: 50px;
+    }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* About us */
