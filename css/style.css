@@ -1474,7 +1474,9 @@ h3.module_store_detail_title {
 
 /* Social Intranet Page */
 
-.social-intranet-page {}
+.social-intranet-page {
+    background: #eff2f2;
+}
 
 .page-title {
     padding: 25px 0 35px;
@@ -1492,6 +1494,7 @@ h3.module_store_detail_title {
 
 .social-intranet-page .ynsi-overview {
     height: 680px;
+    background: #fff;
 }
 
 .social-intranet-page .ynsi-overview .ynsi-overview-groups {
@@ -1550,7 +1553,11 @@ h3.module_store_detail_title {
     max-width: 220px;
     margin: 0 auto;
 }
-
+.ynsi-overview-description-wrap {
+    background: #fff;
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+}
 .social-intranet-page .ynsi-overview-description {
     font-size: 24px;
     font-family: "HelveticaNeueLTStd-Lt";
@@ -1559,7 +1566,6 @@ h3.module_store_detail_title {
     text-align: center;
     background: #0563b8;
     padding: 30px 0;
-    margin-bottom: 120px;
 }
 
 .ynsi-item-violet {
@@ -2292,11 +2298,11 @@ a.view-profile:hover {
     line-height: 1.875;
 }
 
-.request-demo-page .ynsi-notes {
+.ynsi-notes {
     padding-left: 25px;
 }
 
-.request-demo-page .ynsi-notes ul li {
+.ynsi-notes ul li {
     list-style: url('../image/list-style.png');
     margin-bottom: 15px;
 }
@@ -2309,6 +2315,7 @@ a.view-profile:hover {
     display: table;
 }
 
+.customer-support-page .page-banner .page-title,
 .request-demo-page .page-banner .page-title {
     background: none;
     margin-bottom: 10px;
@@ -2317,6 +2324,7 @@ a.view-profile:hover {
     vertical-align: middle;
 }
 
+.customer-support-page .page-banner p,
 .request-demo-page .page-banner p {
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -2333,4 +2341,71 @@ a.view-profile:hover {
 }
 .contact-us-page  .contact-us .address {
     margin-bottom: 70px;
+}
+/* Customer support */
+.customer-support-page {
+    background: #fff;
+    font-size: 16px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    color: rgb(68, 68, 68);
+    line-height: 1.875;
+}
+.customer-support-page .page-banner {
+    background: url('../image/customer-support-banner.png') center center no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: table;
+}
+.customer-support-page input[type="text"] {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.customer-support-page .checkbox  {
+    margin: 0 25px 0 0;
+    float: left;
+}
+.customer-support-page .btn-login {
+    width: 120px;
+    height: 40px;
+    float: right;
+}
+.customer-support-page input[type=checkbox], .customer-support-page input[type=radio] {
+    margin-top: 10px;
+}
+.customer-support-page a.login-link {
+    font-size: 16px;
+    color: #00529c;
+}
+.customer-support-page .page-content {
+    padding: 50px 0 100px;
+}
+.page-content ul.nav-tabs li a {
+    text-transform: uppercase;
+    line-height: 1.875;
+    text-align: center;
+    font-weight: 500;
+    color: #2e323c;
+    font-family: "HelveticaNeueLTStd";
+    border:  none !important;
+    margin-bottom: 30px;
+}
+.page-content ul.nav-tabs li.active a {
+    color: rgb(5, 99, 184);
+    border-bottom: 1px solid #dddddd;
+}
+.page-content  .nav-tabs {
+    text-align: center;
+}
+.page-content  .nav-tabs>li {
+    float: none;
+    display: inline-block;
+}
+.page-content  .tab-pane {
+    margin-bottom: 40px;
 }

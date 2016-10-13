@@ -67,6 +67,12 @@
     a.btn-view-all-project {
         width: 70% !important;
     }
+    /* Customer support */
+    .customer-support-page .checkbox {
+        float: none;
+    }
+    .customer-support-page  .btn-login {
+    }
 }
 
 
