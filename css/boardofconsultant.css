@@ -1,0 +1,59 @@
+.board-area {
+    overflow: hidden;
+}
+.member {
+  width: 33%;
+  float: left;
+  min-height: 400px;
+}
+.member-name {
+    text-align: center;
+    font-size: 19px;
+    color: #003366;
+}
+.tooltip, .member {
+    text-align: center;
+}
+.member-title {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+.tooltip img {
+    border-radius: 50%;
+  border: 3px solid #FFF;
+}
+.tooltip img:hover {
+  border: 3px solid #aed136;  
+}
+.tooltipster-mytheme {
+    border-radius: 5px; 
+    border: 2px solid #000;
+    background: #4c4c4c;
+    color: #fff;
+}
+.tooltipster-default .tooltipster-content .member-name {
+    text-align: left;
+    color: #FFF;
+}
+.tooltipster-default .tooltipster-content p {
+    line-height: 18px;
+}
+.introduce-info {
+    font-size: 16px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    color: rgb(85, 85, 85);
+    line-height: 1.875;
+    text-align: center;
+    margin-bottom: 35px;
+}
+h3.board-heading {
+    font-size: 40px;
+    font-family: "HelveticaNeueLTStd";
+    color: rgb(46, 50, 60);
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: none !important;
+}

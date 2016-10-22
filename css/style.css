@@ -949,6 +949,10 @@ div.sidebar-widget-heading {
     background: url("../image/slider-home1.png") center no-repeat;
     background-size: cover;
 }
+.home-page .home-slider .slides > li:nth-child(2) {
+    background: url("../image/slider-home2.png") center no-repeat;
+    background-size: cover;
+}
 
 .home-page .home-si-title {
 }
@@ -1296,7 +1300,7 @@ div.sidebar-widget-heading {
 }
 
 .hp_yn_si_request_demo_form_wrap {
-    /* padding-top: 120px; */
+    padding-top: 120px;
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content .btn-contact-us {
@@ -2639,4 +2643,10 @@ footer .footer_copyright {
 }
 footer .follow-ynsi p {
     margin-bottom: 10px;
+}
+.services-page {
+    font-family: "HelveticaNeueLTStd-Lt";
+}
+.services-page h3.board-heading {
+    margin-top: 60px;
 }
