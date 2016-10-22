@@ -41,6 +41,13 @@
     .ynsi-notes {
         margin-bottom: 50px;
     }
+    /*  */
+    .hp_yn_si_review .left-arrow {
+        left:  -30px;
+    }
+    .hp_yn_si_review .right-arrow {
+        right:  -30px;
+    }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* About us */
@@ -73,6 +80,11 @@
     }
     .customer-support-page  .btn-login {
     }
+    /*  */
+    
+    .customer-reivew p {
+        font-size: 16px;
+    }
 }
 
 
@@ -93,6 +105,12 @@
 /* iPads (portrait and landscape) ----------- */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .hp_yn_si_review .left-arrow {
+        left:  -10px;
+    }
+    .hp_yn_si_review .right-arrow {
+        right:  -10px;
+    }
 }
 
 
