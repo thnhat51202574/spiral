@@ -48,6 +48,15 @@
     .hp_yn_si_review .right-arrow {
         right:  -30px;
     }
+    /*  */
+    div#footer_copyright .footer_credits,
+    div#footer_copyright .footer_copyright {
+        text-align: center;
+    }
+    .follow-ynsi,
+    .younet-groups {
+        margin-top: 20px;
+    }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     /* About us */

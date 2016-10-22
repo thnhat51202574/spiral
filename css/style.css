@@ -351,7 +351,7 @@ div#footer_copyright {
 }
 
 div#footer_copyright .younet-groups p {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 div#footer_copyright .younet-groups {
@@ -2633,4 +2633,10 @@ span.wpcf7-form-control-wrap:before {
 }
 .pricing-page .page-category {
     margin-bottom:  30px;
+}
+footer .footer_copyright {
+    padding-top: 15px;
+}
+footer .follow-ynsi p {
+    margin-bottom: 10px;
 }
