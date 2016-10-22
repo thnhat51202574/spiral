@@ -268,7 +268,7 @@ section.study_si_solution{padding-top:100px;padding-bottom:100px;}
 section.study_si_solution h3{padding-bottom:0;margin-bottom:0;padding-top:20px;}
 .solution_block .tcvpb_column_tc_span12{margin:0;padding-bottom:10px;}
 .solution_block .block_col{margin-top:5px;margin-bottom:5px;}
-.tcvpb_section_tc {padding:40px 0;}
+.tcvpb_section_tc {padding:40px 0; background: #eff2f2;}
 .sect_aboutus .tcvpb_service_box_default{margin:0 15px;}
 .sect_aboutus .tcvpb_service_box_default p{margin-bottom:0;text-align:justify;}
 .sect_aboutus .tcvpb_service_box_header h3 {
@@ -595,7 +595,7 @@ aside .widget a:hover{background-color:#aed136;}
 	font-weight: 700;
 	text-transform: uppercase;
 }
-.tab_pricingtable.tcvpb-tabs.tcvpb-tabs-unboxed .tab-pane{padding-right:0;}
+.tab_pricingtable.tcvpb-tabs.tcvpb-tabs-unboxed .tab-pane{padding-right:0; padding-top: 0;}
 .ynsi_pricingtable.tcvpb_section_tc{padding:0;margin-top:-1px;}
 .ynsi_pricingtable .package_column{position:relative;}
 .ynsi_pricingtable .package_optlist ul,
@@ -626,7 +626,7 @@ aside .widget a:hover{background-color:#aed136;}
 .ynsi_pricingtable .tcvpb_pricebox_feature:first-of-type {
 	padding-top: 20px;
 }
-.ynsi_pricingtable .package_optlist li.tcvpb_pricebox_feature{padding:9px 10px;white-space:normal;}
+.ynsi_pricingtable .package_optlist li.tcvpb_pricebox_feature{padding:9px 10px;white-space:normal; background: #fff !important;}
 .tcvpb_pricing-table-1 .tcvpb_pricebox_feature:last-child,
 .tcvpb_pricing-table-2 .tcvpb_pricebox_feature:last-child {
 	padding: 20px;
@@ -662,13 +662,21 @@ aside .widget a:hover{background-color:#aed136;}
 	margin: 0;
 	padding-top: 20px;
 	text-align: center;
+	background: #fff;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0)
 {
-	.ynsi_pricingtable .package_optlist h3{height:73px;}
+	.ynsi_pricingtable .package_optlist h3{height:72px;}
 }
 .ynsi_pricingtable .package_optlist h5,
-.ynsi_pricingtable .package_optlist h5 a{margin:0;font-weight:bold;font-size:14px;line-height:normal;}
+.ynsi_pricingtable .package_optlist h5 a{
+	margin:0;
+	font-size: 16px;
+	font-family: "HelveticaNeueLTStd-Lt";
+	color: rgb(46, 50, 60);
+	line-height: 1.75;
+	text-align: left;
+}
 .ynsi_pricingtable .package_optlist h5 a{color:#469cdf;text-decoration:none;}
 .ynsi_pricingtable .tcvpb_pricebox_feature h5 a:hover {
 	color: #034980;
@@ -676,39 +684,38 @@ aside .widget a:hover{background-color:#aed136;}
 	line-height: normal;
 }
 .package_feature .package_optrow li{background-color:#f7fafd;}
-.package_feature .tcvpb_pricebox_feature h5,
-.package_feature .tcvpb_pricebox_feature h5 a{color:#469cdf;text-decoration:none;}
 .package_feature .tcvpb_pricebox_feature.txt_black h5{color:#555;}
 
 .ynsi_pricingtable .tcvpb_pricing-table-1{margin:0;position:static;}
 .ynsi_pricingtable .tcvpb_pricing-table-1.tcvpb_pricing-table-light .tcvpb_pricebox_header {
-	background-color: #0d7fd6;
-	padding-top:20px;
+	background-color: #0563b8;
+	padding-top:0px;
 	color:#555;
 }
 .ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_name {
-	/* font-weight: 600; */
-	/* padding-bottom: 20px; */
-	/* line-height: normal; */
+	height: 72px;
+	line-height: 72px;
 }
 .ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_info {
 	box-shadow: none;
 	height:64px;
-	color:#468ec5;
 	border-top: 1px solid #eee;
 	border-right: 1px solid #eee;
+	color: rgb(46, 50, 60);
+	line-height: 1.25;
 }
 .ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_price {
 	font-size: 36px;
 	line-height: 30px;
 }
-.ynsi_pricingtable .tcvpb_pricebox_info.freeplan{background-color:#efffd6;}
 .ynsi_pricingtable .tcvpb_pricebox_text {
 	color: #aed136;
-	font-weight: bold;
+	font-weight: 500;
 	display: block;
 	line-height: 32px;
 	font-size: 16px;
+  	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  	text-transform: uppercase;
 }
 .ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_currency{top:-5px;}
 .ynsi_pricingtable .tcvpb_pricing-table-1 {box-shadow:none;border-bottom:1px solid #eee;}
@@ -716,7 +723,9 @@ aside .widget a:hover{background-color:#aed136;}
 .ynsi_pricingtable .tcvpb_pricebox_feature_button .tcvpb-button{margin:0;padding-top:0;padding-bottom:0;line-height:38px;}
 .ynsi_pricingtable .tcvpb_pricebox_feature_button .tcvpb-button.btn_buynow,
 .buynow_topbtn a{
-	background-color: #469cdf;
+	background-color: #fff;
+	color: #469cdf;
+	border: 1px solid #469cdf;
 }
 .ynsi_pricingtable .tcvpb_pricebox_feature_button .tcvpb-button.btn_buynow:hover,
 .buynow_topbtn a:hover{
@@ -724,8 +733,9 @@ aside .widget a:hover{background-color:#aed136;}
 	background-color: #0d7fd6;
 }
 .ynsi_pricingtable .tcvpb_pricebox_feature_button .tcvpb-button.btn_signupfree {
-	background-color: #aed136;
-	color: #fff;
+	background-color: #fff;
+	color: #aed136;
+	border: 1px solid #aed136;
 }
 .ynsi_pricingtable .tcvpb_pricebox_feature_button .tcvpb-button.btn_signupfree:hover {
 	color: #fff;
@@ -734,15 +744,14 @@ aside .widget a:hover{background-color:#aed136;}
 .ynsi_pricingtable .pricing_subheading {
 	text-align: center;
 	padding: 16px;
-	background-color: #f4f4f4;
+	background-color: #eff2f2;
 	border: 1px solid #eee;
 	border-top:0 none;
 	border-bottom: 0;
-	color: #888;
+	color: #2e323c;
 	font-size:20px;
 	min-height:64px;
 	position:relative;
-	left:-1px;
 }
 .pricing_subheading.switcher_row {
 	background-color: transparent;
@@ -1069,8 +1078,8 @@ div.wpcf-ynsi.ynsi-edit-profile-form{padding-top:20px;max-width:800px}
 	.tab_pricingtable.tcvpb-tabs.tcvpb-tabs-unboxed .tab-pane{padding-top:0;}
 	.ynsi_pricingtable .tcvpb_container .tcvpb_column_tc_span4{width:33.33%}
 	.ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_name,
-	.ynsi_pricingtable .tcvpb_pricing-table-1.tcvpb_pricing-table-light .tcvpb_pricebox_header{font-size:14px;padding-bottom:10px;}
-	.ynsi_pricingtable .tcvpb_pricing-table-1.tcvpb_pricing-table-light .tcvpb_pricebox_header{padding-bottom:0;padding-top:10px;}
+	.ynsi_pricingtable .tcvpb_pricing-table-1.tcvpb_pricing-table-light .tcvpb_pricebox_header{font-size:14px;}
+	.ynsi_pricingtable .tcvpb_pricing-table-1.tcvpb_pricing-table-light .tcvpb_pricebox_header{padding-bottom:0;padding-top:0px;}
 	.ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_info{height:50px;word-wrap:break-word;padding:10px 0;}
 	.ynsi_pricingtable .tcvpb_pricing-table-1 .tcvpb_pricebox_price,
 	.tcvpb_pricing-table-1 .tcvpb_pricebox_currency,

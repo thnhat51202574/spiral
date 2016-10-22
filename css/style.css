@@ -527,10 +527,6 @@ h3.big_text {
     line-height: 18px;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
 div.tcvpb_service_box_default:hover a.tcvpb_icon_boxed i {
     color: #AED136!important;
 }
@@ -1824,11 +1820,13 @@ h3.module_store_detail_title {
     margin-top: 60px;
 }
 
+.pricing-page .page-category,
 .featured-project-page .page-category {
     text-align: center;
     margin-top: 30px;
 }
 
+.pricing-page .page-category hr,
 .featured-project-page .page-category hr {
     margin-top: 5px;
     height: 3px;
@@ -1836,6 +1834,7 @@ h3.module_store_detail_title {
     opacity: 0;
 }
 
+.pricing-page .page-category a.category,
 .featured-project-page .page-category a.category {
     display: inline-block;
     margin: 0 10px;
@@ -1846,13 +1845,16 @@ h3.module_store_detail_title {
     text-align: left;
     font-weight: 600;
     text-decoration: none;
+    font-family: "HelveticaNeueLTStd";
 }
 
+.pricing-page .page-category a.category:hover hr,
 .featured-project-page .page-category a.category:hover hr {
     display: block;
     opacity: 1;
 }
 
+.pricing-page .page-category .category.c-active,
 .featured-project-page .page-category .category.c-active {
     color: rgb(5, 99, 184);
 }
@@ -2614,4 +2616,21 @@ span.wpcf7-form-control-wrap:before {
 
 .home-slider .flex-direction-nav {
     display: none;
+}
+.tcvpb-button_rounded.tcvpb-button_large {
+    border-radius: 0 !important;
+}
+.pricing-page {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #eff2f2;
+}
+.pricing-page .tab-content {
+    background: #fff;
+    padding: 10px;
+}
+.pricing-page .tcvpb_section_content {
+    background: #fff;
+}
+.pricing-page .page-category {
+    margin-bottom:  30px;
 }
