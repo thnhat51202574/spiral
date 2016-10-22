@@ -1300,7 +1300,7 @@ div.sidebar-widget-heading {
 }
 
 .hp_yn_si_request_demo_form_wrap {
-    padding-top: 120px;
+    /* padding-top: 120px; */
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content .btn-contact-us {
@@ -2540,7 +2540,6 @@ a.view-profile:hover {
     display: block;
     margin: 0 auto;
 }
-
 
 /*Header*/
 

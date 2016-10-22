@@ -8,8 +8,8 @@ a:hover{color:#333;text-decoration:none;}
 #ABdev_main_header.smaller #logo img{margin-top:10px}
 #ABdev_main_header.smaller nav > ul > li > a{padding-left:8px;padding-right:8px;font-size:14px;}
 nav > ul > li{margin:0;}
-nav > ul > li:last-child{margin-left: 40px;     line-height: 70px;}
-nav > ul > li:last-child a{
+/* nav > ul > li:last-child{margin-left: 40px;     line-height: 70px;} */
+/* nav > ul > li:last-child a{
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(255, 255, 255);
@@ -19,7 +19,7 @@ nav > ul > li:last-child a{
 }
 nav > ul > li:last-child a span {
 	top: 0;
-}
+} */
 nav > ul > li a{padding:30px 18px 23px;font-size:14px;line-height:normal;}
 @media screen and (max-width:1030px) {
 	#ABdev_main_header nav > ul > li a.menu-link,#ABdev_main_header.smaller nav > ul > li > a.menu-link{padding-left:8px !important;padding-right:8px !important;font-size:13px;}
@@ -801,11 +801,10 @@ aside .widget a:hover{background-color:#aed136;}
 	font-weight: bold;
 }
 .circle_icon {
-	border-radius: 100%;
 	text-align: center;
-	width: 25px;
-	height: 25px;
-	line-height:25px;
+	width: 33px;
+	height: 33px;
+	line-height:33px;
 	display:block;
 	margin:-2px auto 0;
 }
