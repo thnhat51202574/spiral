@@ -12126,7 +12126,7 @@ div.pp_woocommerce .pp_close:hover:before{
 }
 
 .tcvpb_team_member .tcvpb_overlayed img{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .tcvpb_team_member .tcvpb_overlayed .tcvpb_social_links{

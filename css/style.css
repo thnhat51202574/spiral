@@ -1824,12 +1824,13 @@ h3.module_store_detail_title {
     margin-top: 60px;
 }
 
+.services-page .page-category,
 .pricing-page .page-category,
 .featured-project-page .page-category {
     text-align: center;
     margin-top: 30px;
 }
-
+.services-page .page-category hr,
 .pricing-page .page-category hr,
 .featured-project-page .page-category hr {
     margin-top: 5px;
@@ -1838,6 +1839,7 @@ h3.module_store_detail_title {
     opacity: 0;
 }
 
+.services-page .page-category a.category,
 .pricing-page .page-category a.category,
 .featured-project-page .page-category a.category {
     display: inline-block;
@@ -1852,12 +1854,14 @@ h3.module_store_detail_title {
     font-family: "HelveticaNeueLTStd";
 }
 
+.services-page .page-category a.category:hover hr,
 .pricing-page .page-category a.category:hover hr,
 .featured-project-page .page-category a.category:hover hr {
     display: block;
     opacity: 1;
 }
 
+.services-page .page-category .category.c-active,
 .pricing-page .page-category .category.c-active,
 .featured-project-page .page-category .category.c-active {
     color: rgb(5, 99, 184);
@@ -2649,4 +2653,27 @@ footer .follow-ynsi p {
 }
 .services-page h3.board-heading {
     margin-top: 60px;
+}
+.services-page .connect-social {
+    padding: 55px 0;
+}
+.services-page .connect-social a {
+    display: inline-block;
+    position: static;
+    margin:  0 5px;
+}
+.services-page .connect-social p {
+    font-size: 16px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    color: rgb(46, 50, 60);
+    line-height: 1.75;
+}
+.services-page figcaption {
+    background: rgba(254,254,254,0.85);
+}
+.services-page figure {
+    background-color:  #fff;
+}
+.services-page .page-category {
+    margin-bottom: 65px;
 }
