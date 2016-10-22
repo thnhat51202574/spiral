@@ -1997,7 +1997,6 @@ ul.ynsi-clients-list {
     border-top: 1px solid #eff2f2;
     border-left: 1px solid #eff2f2;
     padding: 0;
-    margin-bottom: 130px;
 }
 
 .our-clients li.client-item {
@@ -2676,4 +2675,22 @@ footer .follow-ynsi p {
 }
 .services-page .page-category {
     margin-bottom: 65px;
+}
+#outclients-slider .slides img {
+    margin: 0 auto;
+    width: auto !important;
+}
+#outclients-slider {
+    border: none;
+    margin-bottom: 100px;
+}
+#outclients-slider .flex-control-paging li a.flex-active {
+    background: #00529c;
+}
+#outclients-slider .flex-control-paging li a {
+    background: #eff2f2;
+    border: 1px solid rgb(51, 51, 51);
+}
+#outclients-slider .flex-control-nav{
+    bottom:  -60px;
 }
