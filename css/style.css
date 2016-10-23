@@ -1189,32 +1189,31 @@ div.sidebar-widget-heading {
     display: block;
     position: relative;
     padding: 0 30px;
+    background: url('../image/module-item-br.png') center center no-repeat;
 }
 
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item .module_banner .module_banner_content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    padding-left: 20px;
-    display: table;
-    text-align: center;
+    
 }
 
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item .module_banner_img {
-    float: left;
-    margin-right: 10px;
+    position: absolute;
+    top: 45px;
 }
+.hp_yn_si_module_store_list .hp_yn_si_module_store_list_item .module_banner_img img{
+    max-width: 55px;
+} 
 
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item .module_banner_text {
     font-size: 16px;
     font-family: "HelveticaNeueLTStd";
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 65px;
 }
 
 .module_view_module {}
@@ -1449,10 +1448,12 @@ h3.module_store_detail_title {
 
 .module-store-page .category_filter_inner ul li.active a {
     text-decoration: underline;
+    color: #0563b8;
 }
 
 .module-store-page .category_filter_inner ul li a:hover {
     text-decoration: underline;
+    color: #0563b8;
 }
 
 
@@ -2698,7 +2699,8 @@ footer .follow-ynsi p {
     /* width: auto; */
 }
 .module-slider {
-    height: 400px;
+    min-height: 400px;
+    height: auto;
     background: url('../image/module-slider-br.png') center center no-repeat;
     background-size: cover;
 }
@@ -2740,4 +2742,56 @@ footer .follow-ynsi p {
     color: #fff;
     border-color: #fff;
     width: 222px;
+}
+.module-item img.module-item-logo {
+    float: left;
+    width: 55px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.module-store-page figure {
+    width: 100%;
+}
+.module-store-page figcaption {
+    background: #fff;
+    padding: 15px;
+}
+.module-store-page figcaption h4 {
+    font-size: 16px;
+    font-family: "HelveticaNeueLTStd";
+    color: rgb(46, 50, 60);
+    line-height: 1.75;
+    margin-bottom:  5px;
+    margin-top: 0;
+}
+.module-store-page figcaption p {
+    font-size: 14px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    color: rgb(46, 50, 60);
+    line-height: 1.429;
+    margin-bottom: 20px;
+    clear: both;
+}
+.module-store-page figcaption a.view-profile {
+    position: static;
+    color: rgb(0, 14, 101); 
+    font-family: "HelveticaNeueLTStd";
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.module-store-page figcaption a.view-profile:hover {
+    color: #fff;
+}
+.module-store-page .module-ratting {
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.module-reivew {
+    font-size: 12px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    color: rgb(153, 153, 153);
+    line-height: 2;
 }

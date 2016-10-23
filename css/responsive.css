@@ -94,6 +94,18 @@
     .customer-reivew p {
         font-size: 16px;
     }
+    .module-item .view-profile {
+        margin-bottom:  20px;
+    }
+    .module-page .left-arrow {
+        left: 0 !important;
+    }
+    .module-page .right-arrow {
+        right: 0 !important;
+    }
+    .module-item h1 {
+        font-size: 30px !important;
+    }
 }
 
 
