@@ -1803,6 +1803,7 @@ h3.module_store_detail_title {
 
 .featured-project-page {
     background-color: #eff2f2;
+    font-family: "HelveticaNeueLTStd-Lt";
 }
 
 .services-page .page-title > p,
@@ -2169,6 +2170,7 @@ a.view-profile:hover {
 .blog-page {
     background-color: #eff2f2;
     min-height: 100vh;
+    font-family: "HelveticaNeueLTStd-Lt";
 }
 
 .article-list {
@@ -2379,7 +2381,9 @@ a.view-profile:hover {
     font-family: "HelveticaNeueLTStd-Lt";
     overflow: hidden;
 }
-
+.contact-us-page .hp_yn_si_request_demo_form_wrap {
+    padding-top: 0;
+}
 .request-demo-page .page-content {
     padding: 60px 0 10px;
 }

@@ -1267,7 +1267,7 @@ cite{
 }
 
 .row{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .row:before,
