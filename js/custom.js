@@ -660,7 +660,6 @@ jQuery(document).ready(function ($) {
     });
 
 
-    $('.tcvpb-video-bg .section_video_background').mediaelementplayer( {pauseOtherPlayers: false} );
 
     function tcvpb_resize_video_bg($section){
         var $video = $section.find('.tcvpb_video_background');
@@ -712,24 +711,6 @@ jQuery(document).ready(function ($) {
                 difference = difference + delay;
             });
         }
-    });
-
-
-	/*********** Accordions ***********/
-    $( ".tcvpb-accordion" ).accordion({
-        collapsible: true,
-        active: false,
-        heightStyle: "content",
-        create: function( event, ui ) {
-            var expanded = $(this).data("expanded");
-            if(expanded===0){
-                expanded = false;
-            }
-            else{
-                expanded = expanded-1;
-            }
-            $(this).accordion( "option", "active", expanded);
-        },
     });
 
 

@@ -29,7 +29,7 @@ nav > ul > li a span{font-weight:700;top:-3px;}
 nav > ul > li:hover > a > span{top:-8px;}
 nav > ul > li.current-menu-item,
 nav > ul > li.current-menu-parent,
-nav > ul > li.current-menu-ancestor{background: #044b8c;}
+nav > ul > li.current-menu-ancestor{background: #0563b8;}
 nav > ul > .current-menu-item > a,
 nav > ul > .current-post-ancestor > a,
 nav > ul > .current-menu-ancestor > a{color:#fff;padding-bottom:24px;}

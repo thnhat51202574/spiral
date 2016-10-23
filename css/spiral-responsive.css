@@ -2335,7 +2335,7 @@
 	}
 
 	nav > ul > li > a span{
-		padding: 5px 0 0 25px !important;
+		padding: 5px 0 0 25px;
 	}
 
 	nav > ul > .current-menu-item > a,

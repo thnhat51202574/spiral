@@ -1254,7 +1254,7 @@ cite{
 }
 
 /*-------- 2.5. Inner Columns --------*/
-.container,
+.container-spiral-spiral,
 .tcvpb_container{
     width: 1170px;
     margin: 0 auto;
@@ -1381,7 +1381,7 @@ cite{
     z-index: 9999;
     width: 100%;
     position: fixed;
-    background: #222;
+    background: #02284a;
     -webkit-transition: all 250ms ease-in-out;
     -moz-transition: all 250ms ease-in-out;
     -ms-transition: all 250ms ease-in-out;
@@ -1455,7 +1455,7 @@ body.admin-bar #ABdev_main_slider{
     left: 0;
 }
 
-#ABdev_main_header .container{
+#ABdev_main_header .container-spiral{
     position: relative;
     min-height: 56px;
 }
@@ -1889,6 +1889,7 @@ body.admin-bar #ABdev_main_header.transparent{
     -ms-transition: all 100ms ease-in-out;
     -o-transition: all 100ms ease-in-out;
     transition: all 100ms ease-in-out;
+    height: 70px;
 }
 
 /*-------- 3.3. Main Menu --------*/
@@ -5843,7 +5844,7 @@ select[name="cat"]{
     margin-left: 18.2%;
 }
 
-.container_fullwidth .portfolio_filter{
+.container-spiral_fullwidth .portfolio_filter{
     margin-left: 18%;
 }
 
@@ -6008,7 +6009,7 @@ select[name="cat"]{
     text-shadow: 0 0 1px #000;
 }
 
-.container_fullwidth{
+.container-spiral_fullwidth{
     width: 100%;
     margin: 0 auto;
 }
@@ -6388,20 +6389,20 @@ select[name="cat"]{
     margin-bottom: 0;
 }
 
-.woocommerce .container.shop_container .span9.content_with_right_sidebar{
+.woocommerce .container-spiral.shop_container .span9.content_with_right_sidebar{
     margin-left: 0 !important;
     text-align: center;
 }
 
-.woocommerce .container.shop_container .span9.content_with_left_sidebar{
+.woocommerce .container-spiral.shop_container .span9.content_with_left_sidebar{
     text-align: center;
 }
 
-.woocommerce .container.shop_container .span12{
+.woocommerce .container-spiral.shop_container .span12{
     text-align: center;
 }
 
-.woocommerce .container.shop_container .span3.sidebar.sidebar_right{
+.woocommerce .container-spiral.shop_container .span3.sidebar.sidebar_right{
     float: right !important;
 }
 
@@ -6568,18 +6569,18 @@ select[name="cat"]{
     overflow: hidden;
 }
 
-.woocommerce .container.shop_container.column-3 ul.products li.product,
-.woocommerce-page .container.shop_container.column-3 ul.products li.product{
+.woocommerce .container-spiral.shop_container.column-3 ul.products li.product,
+.woocommerce-page .container-spiral.shop_container.column-3 ul.products li.product{
     width: 31.66%;
 }
 
-.woocommerce .container.shop_container.column-4 ul.products li.product,
-.woocommerce-page .container.shop_container.column-4 ul.products li.product{
+.woocommerce .container-spiral.shop_container.column-4 ul.products li.product,
+.woocommerce-page .container-spiral.shop_container.column-4 ul.products li.product{
     width: 23.125%;
 }
 
-.woocommerce .container.shop_container.column-5 ul.products li.product,
-.woocommerce-page .container.shop_container.column-5 ul.products li.product{
+.woocommerce .container-spiral.shop_container.column-5 ul.products li.product,
+.woocommerce-page .container-spiral.shop_container.column-5 ul.products li.product{
     width: 18%;
 }
 
