@@ -2694,3 +2694,50 @@ footer .follow-ynsi p {
 #outclients-slider .flex-control-nav{
     bottom:  -60px;
 }
+#module-banner-slider .slides img {
+    /* width: auto; */
+}
+.module-slider {
+    height: 400px;
+    background: url('../image/module-slider-br.png') center center no-repeat;
+    background-size: cover;
+}
+.module-page .flexslider {
+    background: none;
+    border: none;
+    color: #fff;
+    padding-top: 50px;
+}
+.module-page .left-arrow {
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    z-index: 99;
+}
+.module-page .right-arrow {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    z-index: 99;
+}
+.module-item {
+    font-family: "HelveticaNeueLTStd-Lt";
+    text-align: left;
+}
+.module-item h1 {
+    font-size: 40px;
+    line-height: 1.25;
+    margin-top:  30px;
+    margin-bottom: 25px;
+}
+.module-item p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.875;
+    margin-bottom: 30px;
+}
+.module-item .view-profile {
+    color: #fff;
+    border-color: #fff;
+    width: 222px;
+}
