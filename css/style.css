@@ -920,7 +920,8 @@ div.sidebar-widget-heading {
 /*new custom*/
 
 #ABdev_main_header.transparent {
-    background: #02284a;
+    /* background: #02284a; */
+    background: rgba(2,40,74,0.6);
 }
 
 .page-wrap {
@@ -986,9 +987,11 @@ div.sidebar-widget-heading {
 }
 
 #head-menu-context {
-    background-color: rgb(5, 99, 184);
+    background-color: #0563b8;
     height: 32px;
     line-height: 32px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    font-size: 12px;
 }
 
 #head-menu-context .list-style-none {
@@ -1011,6 +1014,14 @@ div.sidebar-widget-heading {
 
 #head-menu-context ul.head-menu-context li:first-child > a {
     padding-left: 0 !important;
+}
+#head-menu-context .hotline {
+    color: #fff;
+    margin-right:  15px;
+}
+#head-menu-context .hotline span{
+    color: #b4e771;
+    font-family: "HelveticaNeueLTStd";
 }
 
 #ABdev_main_header #head-menu-context .container {
@@ -1049,7 +1060,7 @@ div.sidebar-widget-heading {
     text-transform: uppercase;
     text-align: left;
     position: absolute;
-    top: 0;
+    top: 37px;
 }
 
 .hp_yn_si_scolution_name {

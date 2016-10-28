@@ -32,7 +32,7 @@ nav > ul > li.current-menu-parent,
 nav > ul > li.current-menu-ancestor{background: #0563b8;}
 nav > ul > .current-menu-item > a,
 nav > ul > .current-post-ancestor > a,
-nav > ul > .current-menu-ancestor > a{color:#fff;padding-bottom:24px;}
+nav > ul > .current-menu-ancestor > a{color:#fff;padding-bottom:23px;}
 nav > ul ul > .current-menu-item > a,
 nav > ul ul li:hover > a{color: #0093ca !important;}
 

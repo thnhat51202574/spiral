@@ -103,7 +103,7 @@
                                                 56 reviews
                                             </div>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ctetur adipisicing elit. Dolorem, vero.</p>
-                                            <a href="#" class="view-profile" title="">Intall Module</a>
+                                            <a href="#" data-toggle="modal" data-target="#module-detail-modal" class="view-profile" title="">Intall Module</a>
                                         </div>
                                     </figcaption>
                                 </figure>
@@ -390,6 +390,93 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="module-detail-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header-custom">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="module-modal-top">
+                        <div class="module-modal-top-left clearfix">
+                            <div class="module-avatar pull-left">
+                                <img src="image/contract_module.png" alt="contract module">
+                            </div>
+                            <div class="pull-left">
+                                <h4 class="modal-title">Contract Management</h4>
+                                <span class="module-review-star">
+                                    <img class="module-star-icon" src="image/star-icon.png" alt="">
+                                    <img class="module-star-icon" src="image/star-icon.png" alt="">
+                                    <img class="module-star-icon" src="image/star-icon.png" alt="">
+                                    <img class="module-star-icon" src="image/star-icon.png" alt="">
+                                    <img class="module-star-icon" src="image/star-icon.png" alt="">
+                                </span>
+                                <span class="module-review-number">58 reviews</span>
+                            </div>
+                        </div>
+                        <div class="module-modal-top-right">
+                            <div class="purcharse-now">
+                                <a class="module-btn module-purchase-now" href="#"><span>purcharse now</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="module-modal-content-wrap">
+                        <div class="module-modal-content">
+                            <div class="module-modal-menu">
+                                <div>
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a></li>
+                                        <li role="presentation"><a href="#reviews" aria-controls="reviews" role="tab" data-toggle="tab">Reviews</a></li>
+                                    </ul>
+                                    <!-- Tab panes -->
+                                    <div class="tab-content nopadding">
+                                        <div role="tabpanel" class="tab-pane active" id="overview">
+                                            <div class="row">
+                                                <div class="col-sm-7">
+                                                    <div class="module-slider-overview">
+                                                        <!-- Place somewhere in the <body> of your page -->
+                                                        <div class="flexslider" id="module-detail-slider">
+                                                            <ul class="slides">
+                                                                <li data-thumb="image/slide1-thumb.jpg">
+                                                                    <img src="image/slide1.jpg" />
+                                                                </li>
+                                                                <li data-thumb="image/slide1-thumb.jpg">
+                                                                    <img src="image/slide1.jpg" />
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="module-description-overview">
+                                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi asperiores porro tempora, natus, dolorum libero saepe nam aut repellat expedita, necessitatibus velit fuga similique veniam. Commodi, voluptate eaque facere nisi dolores iste, deleniti, veritatis nostrum, nihil id ipsa vitae. Nulla ut recusandae nemo quam autem minus totam impedit quod accusamus optio quos odio repellendus illum consequuntur aliquid dignissimos voluptatibus, cum ratione, omnis repudiandae magni ex. Non asperiores magni, laborum accusamus, temporibus voluptatem iste. Deleniti consequuntur, repellendus magnam quam fugit ad, obcaecati tempora suscipit dolore, aut et eius accusamus sint quia cupiditate laborum natus autem iste architecto molestias sunt dicta facere!
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div role="tabpanel" class="tab-pane" id="reviews">Reviews</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery('#module-detail-modal').on('shown.bs.modal', function () {
+           jQuery(document).ready(function() {
+                jQuery('#module-detail-slider').flexslider({
+                    animation: "slide",
+                    controlNav: "thumbnails"
+                });
+            });
+        });
+        
+    </script>
     <script type="text/javascript">
     jQuery('#module-banner-slider').flexslider({
             animation: "slide",
