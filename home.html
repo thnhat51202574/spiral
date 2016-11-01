@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/spiral.css">
     <link rel="stylesheet" type="text/css" href="css/extra.css">
     <link rel="stylesheet" type="text/css" href="css/spiral-responsive.css">
@@ -54,24 +55,15 @@
     <div class="page-wrap home-page" id="">
         <!-- Content -->
         <div class="home-banner">
-            <div class="home-slider">
-                <div class="flexslider" id="home-banner-slider">
-                    <ul class="slides">
-                        <li>
-                            <div class="home-si-title">
-                                <h1>YouNet SI is The No.1 Social Intranet
-                                <br> (Youtranet) Provider On Top Of Bitrix24</h1>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="home-si-title">
-                                <h1>YouNet SI is The No.1 Social Intranet
-                                <br> (Youtranet) Provider On Top Of Bitrix24</h1>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="home-si-title">
+                <h1>YouNet SI is The No.1 Social Intranet
+                <br> (Youtranet) Provider On Top Of Bitrix24</h1>
             </div>
+            <video autoplay  poster="image/poster.jpg" id="videobg" loop>
+                <source src="image/video2.webm" type="video/webm">
+                <source src="image/video2.mp4" type="video/mp4">
+                Your browser does not support the video tag. I suggest you upgrade your browser.
+            </video>
         </div>
         <div class="hp_ynsi_solution_wrap clearfix">
             <div class="hp_yn_si_scolution_list container">
@@ -376,18 +368,18 @@
                         <ul class="slides col-sm-12">
                             <li>
                                 <div class="customer-reivew col-sm-12">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci.</p>
+                                    <p class="review-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, adipisci.</p>
                                     <p class="author">
-                                        Binh Ngo
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>&nbspTrieu Nguyen&nbsp<i class="fa fa-quote-right" aria-hidden="true"></i>
                                         <br>Song nhac groups
                                     </p>
                                 </div>
                             </li>
                             <li>
                                 <div class="customer-reivew col-sm-12">
-                                    <p>SI có phong cách làm việc rất chuyên nghiệp.</p>
+                                    <p class="review-text">SI có phong cách làm việc rất chuyên nghiệp.</p>
                                     <p class="author">
-                                        Duong Thai Cuong
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>&nbspVinacafe&nbsp<i class="fa fa-quote-right" aria-hidden="true"></i>
                                         <br>CFF Groups
                                     </p>
                                 </div>
@@ -403,7 +395,6 @@
                             </a>
                         </div>
                     </div>
-                    <span class="counter_icon"><img src="image/si-review.png" alt=""></span>
                 </div>
             </div>
             <!-- Form -->

@@ -933,7 +933,9 @@ div.sidebar-widget-heading {
     width: 100%;
     overflow: hidden;
 }
-
+.home-page .home-banner {
+    height: 100%;
+}
 .home-page .home-si-title {
     background-color: rgba(5, 99, 184, 0.8);
     padding: 23px;
@@ -1029,7 +1031,7 @@ div.sidebar-widget-heading {
 }
 
 .hp_yn_si_scolution_list {
-    padding: 30px 0px;
+    padding: 30px 0px 60px;
 }
 
 .hp_yn_si_scolution_list .hp_yn_si_scolution {}
@@ -1131,7 +1133,7 @@ div.sidebar-widget-heading {
 }
 
 .hp_yn_si_module_store_wrap {
-    padding: 60px 0 65px;
+    padding: 50px 0 65px;
 }
 
 .hp_yn_si_module_store_title,
@@ -1156,7 +1158,7 @@ div.sidebar-widget-heading {
     text-align: center;
     max-width: 580px;
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .hp_yn_si_module_store_list,
@@ -1165,11 +1167,16 @@ div.sidebar-widget-heading {
     margin: 0;
     margin-bottom: 65px;
 }
-
+.hp_yn_si_module_store_list {
+    margin-bottom: 20px;
+}
 .hp_yn_si_feature_project_list {
     background: white;
+    margin-bottom: 60px;
 }
-
+.hp_yn_si_request_demo_form_content .form-group {
+    margin-bottom: 0px;
+}
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item {
     border: 1px solid #e0e2e2;
     margin-bottom: 30px;
@@ -1178,6 +1185,7 @@ div.sidebar-widget-heading {
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item .module_detail {
     padding: 20px 15px;
     background: white;
+    height: 150px;
 }
 
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item .module_des {
@@ -1186,7 +1194,8 @@ div.sidebar-widget-heading {
     color: rgb(46, 50, 60);
     line-height: 1.375;
     text-align: left;
-    margin-bottom: 25px;
+    height: 65px;
+    /*margin-bottom: 25px;*/
 }
 
 .hp_yn_si_module_store_list .hp_yn_si_module_store_list_item {
@@ -1227,7 +1236,10 @@ div.sidebar-widget-heading {
     padding-left: 65px;
 }
 
-.module_view_module {}
+.module_view_module {
+    position: relative;
+    bottom: 0;
+}
 
 .module_view_module > a {
     width: 100%;
@@ -1245,7 +1257,7 @@ div.sidebar-widget-heading {
 .hp_yn_si_view_more > a {
     font-size: 14px;
     font-family: "HelveticaNeueLTStd";
-    color: rgb(5, 99, 184);
+    color: #0563b8;
     text-transform: uppercase;
     line-height: 1.429;
     text-align: center;
@@ -1253,9 +1265,13 @@ div.sidebar-widget-heading {
     display: block;
     width: 200px;
     height: 40px;
-    line-height: 40px;
+    line-height: 42px;
     margin: 0 auto;
     text-decoration: none;
+}
+.hp_yn_si_view_more > a:hover {
+    background: #0563b8;
+    color: #fff;
 }
 
 .project_banner_text {
@@ -1303,6 +1319,7 @@ div.sidebar-widget-heading {
     max-width: 580px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .hp_yn_si_request_demo_form_content p.form-des {
@@ -1310,11 +1327,11 @@ div.sidebar-widget-heading {
 }
 
 .hp_yn_si_request_demo_form_wrap {
-    padding-top: 120px;
+    padding-top: 50px;
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content .btn-contact-us {
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 
 .hp_yn_si_request_demo_form_wrap .hp_yn_si_request_demo_form_content textarea {
@@ -2590,8 +2607,14 @@ span.wpcf7-form-control-wrap:before {
     width: 0;
 }
 
+.customer-reivew {
+    padding: 50px 20px 50px;
+}
+.customer-review .review-text {
+    height: 100px;
+}
 .customer-reivew p {
-    font-size: 24px;
+    font-size: 22px;
     font-family: "HelveticaNeueLTStd-Lt";
     color: rgb(255, 255, 255);
     line-height: 1.5;
@@ -2602,13 +2625,14 @@ span.wpcf7-form-control-wrap:before {
 .customer-reivew .author {
     text-align: center;
     margin-top: 40px;
+    font-size: 16px;
 }
 
 .hp_yn_si_review_wrap {
     background: url("../image/customer-review-br.png") center center no-repeat;
     background-size: cover;
     /* min-height: 468px; */
-    padding: 70px 20px 20px;
+    /*padding: 70px 20px 20px;*/
 }
 .hp_yn_si_review_wrap .counter_icon {
     display: block;
@@ -2627,13 +2651,13 @@ span.wpcf7-form-control-wrap:before {
 .hp_yn_si_review .left-arrow {
     position: absolute;
     left: -50px;
-    top: 60%;
+    top: 45%;
     z-index: 99;
 }
 .hp_yn_si_review .right-arrow {
     position: absolute;
     right: -50px;
-    top: 60%;
+    top: 45%;
     z-index: 99;
 }
 
@@ -2809,4 +2833,15 @@ footer .follow-ynsi p {
     font-family: "HelveticaNeueLTStd-Lt";
     color: rgb(153, 153, 153);
     line-height: 2;
+}
+
+video#videobg { 
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: 100;
+	background: url('../image/poster.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
 }
